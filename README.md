@@ -1,6 +1,6 @@
 # Getting Started with React
 
-React is one of the most popular technology today for creating web applications. It is created and maintained by facebook. This repository is dedicated for learning react from creating your first react app to building it to deploy your react app.
+React is one of the most popular technology today for creating web applications. It is created and maintained by facebook. This repository is dedicated for learning react from creating your first react app to building it to deploy your react app. All the contents are from the freeCodeCamp curriculum. All credits to them.
 
 ## Creating your first react app
 
