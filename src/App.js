@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import MyForm from './TestFolder/sample'
+import MyApp from './TestFolder/PassState'
+import PassCallBackAsProps from './TestFolder/PassCallbackAsProps'
+import CallingAPI from './TestFolder/CallingAPI'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <h1>Testing daw</h1>
+      <MyForm />
+      <MyApp />
+      <PassCallBackAsProps />
+      <CallingAPI />
+
     </div>
   );
 }
