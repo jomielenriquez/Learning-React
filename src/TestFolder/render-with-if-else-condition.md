@@ -8,7 +8,7 @@ MyComponent contains a boolean in its state which tracks whether you want to dis
 
 Note: You must write an if/else to pass the tests. Use of the ternary operator will not pass here.
 
-```
+```js
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);

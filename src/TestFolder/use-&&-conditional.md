@@ -12,7 +12,7 @@ If the condition is true, the markup will be returned. If the condition is false
 
 Solve the previous example again, so the h1 only renders if display is true, but use the && logical operator instead of an if/else statement.
 
-```
+```js
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);

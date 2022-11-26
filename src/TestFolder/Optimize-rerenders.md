@@ -4,7 +4,7 @@ So far, if any component receives new `state` or new `props`, it re-renders itse
 
 This method is a useful way to optimize performance. For example, the default behavior is that your component re-renders when it receives new `props`, even if the `props` haven't changed. You can use `shouldComponentUpdate()` to prevent this by comparing the `props`. The method must return a boolean value that tells React whether or not to update the component. You can compare the current props (`this.props`) to the next props (`nextProps`) to determine if you need to update or not, and return `true` or `false` accordingly.
 
-```
+```js
 class OnlyEvens extends React.Component {
   constructor(props) {
     super(props);

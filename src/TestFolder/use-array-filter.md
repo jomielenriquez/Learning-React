@@ -12,7 +12,7 @@ In the code editor, `MyComponent`'s `state` is initialized with an array of user
 
 <hr/>
 
-```
+```js
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);

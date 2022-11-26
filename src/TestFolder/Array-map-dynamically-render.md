@@ -12,7 +12,7 @@ Inside the `constructor`, create a `this.state` object and define two states: `u
 
 Note: You may know that all sibling child elements created by a mapping operation like this do need to be supplied with a unique `key` attribute. Don't worry, this is the topic of the next challenge.
 
-```
+```js
 const textAreaStyles = {
   width: 235,
   margin: 5
